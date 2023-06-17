@@ -13,7 +13,9 @@ h6 {
   font-size: 96px;
   color: red;
 }
-
+img {
+  border-radius: 15px;
+}
 .fixed-top {
   max-width: 100%;
 }
@@ -59,4 +61,12 @@ p {
   line-height: 30px;
   font-weight: normal;
   font-size: 16px;
+}
+.pt-5 {
+  margin-top: 30px;
+}
+@media (max-width: 400px) {
+  .pt-5 {
+    text-align: center;
+  }
 }
