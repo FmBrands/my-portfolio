@@ -55,6 +55,7 @@ img {
   background: var(--bg-pimary);
 }
 h2 {
+  font-family: var(--heading-font-family);
   font-size: 64px;
 }
 p {
@@ -65,8 +66,18 @@ p {
 .pt-5 {
   margin-top: 30px;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .hero {
+    padding: 40px 10px 80px 10px;
+  }
+  h1 {
+    line-height: 1.2;
+    font-size: 69px;
+  }
   .pt-5 {
     text-align: center;
+  }
+  h2 {
+    font-size: 44px;
   }
 }
