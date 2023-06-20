@@ -88,8 +88,9 @@ p {
     padding: 0;
   }
   .about-section img {
-    margin-right: 23px;
+    margin-right: 10px;
     max-width: 300px;
+    margin-left: 30px;
   }
 }
 .about-section h1 {
@@ -110,5 +111,6 @@ p {
   margin: 35px;
 }
 
-@media (max-width: 600px) {
+.about-section img {
+  margin-left: -20px;
 }
