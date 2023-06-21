@@ -31,7 +31,7 @@ img {
 .feature {
   font-size: 20px;
 }
-p {
+.hero p {
   color: var(--description-color);
   font-weight: bold;
   font-family: var(--default-font-family);
