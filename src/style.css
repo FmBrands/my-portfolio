@@ -34,7 +34,7 @@ img {
 p {
   color: var(--description-color);
   font-weight: bold;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-size: 36px;
   margin: 0;
 }
@@ -82,35 +82,37 @@ p {
   h2 {
     font-size: 44px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     font-size: 15px;
     padding: 0;
   }
-  .about-section img {
+  .content-container img {
     margin-right: 10px;
     max-width: 300px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
 }
-.about-section h1 {
+.content-container h1 {
   line-height: 70px;
   font-size: 64px;
 }
-.about-section h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 20px;
 }
-.about-section {
+.content-container {
   padding: 80px 20px 160px 20px;
 }
-.about-section p {
+.content-container p {
+  font-size: 14px;
   line-height: 1.5;
 }
-.about-section-content {
+.content {
   margin: 35px;
 }
 
-.about-section img {
-  margin-left: -20px;
+.content-container h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
 }
