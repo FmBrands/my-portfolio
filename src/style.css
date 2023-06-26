@@ -4,6 +4,9 @@
   --bg-pimary: #0d6efd;
   --heading-font-family: "Playfair Display", serif;
 }
+h1 {
+  color: red;
+}
 h1,
 h3,
 h4,
@@ -11,11 +14,14 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-size: 96px;
-  color: red;
 }
 img {
   border-radius: 15px;
 }
+footer {
+  border-radius: 20px;
+}
+
 .fixed-top {
   max-width: 100%;
 }
@@ -39,6 +45,40 @@ img {
   margin: 0;
 }
 
+.inquiry h4 {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 36px;
+}
+.inquiry p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+}
+footer .email-link:hover {
+  color: var(--bg-pimary);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--bg-pimary);
+  background: whitesmoke;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--bg-pimary);
+}
+.brand {
+  margin-top: 70px;
+}
 .hero h2 {
   font-weight: normal;
   font-family: var(--default-font-family);
@@ -76,7 +116,8 @@ p {
     line-height: 1.2;
     font-size: 69px;
   }
-  .pt-5 {
+
+  .inquiry {
     text-align: center;
   }
   h2 {
